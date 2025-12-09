@@ -1,0 +1,50 @@
+body {
+  background: #f1f1f1 !important;
+}
+
+.ui.card {
+  flex: 1; /* Shrink and grow according to available height */
+  flex-basis: 0;
+  height: 100%;
+  min-width: auto;
+}
+
+.ui.button.add-button {
+	width: 100%;
+	position: relative;
+}
+
+.ui.button.add-button > i{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ui.search, .search.icon {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.add-button-parent {
+	display: flex;
+}
+
+.variant-name {
+  margin: 0px 3px;
+}
+
+.semantic .ui.disabled.button {
+  color: white !important;
+  border-color: none !important;
+  background-color: rgb(33, 133, 208) !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.test-type {
+  float: inline-end;
+}
+
+.ui.category.search .results{
+  overflow-y: auto; 
+  max-height: 25rem;
+}
