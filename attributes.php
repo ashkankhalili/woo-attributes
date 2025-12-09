@@ -10,7 +10,7 @@
  * plugin ur : Plugin URI: https://github.com/ashkankhalili/wc-attributes-plugin
  * 
  * Description:       This plugin makes changing attributes of products easier and much faster than the default products attribute manager on product edit page for woocommerce
- * Version:           1.0.3
+ * Version:           1.0.4
  */
 
 namespace Attributes;
