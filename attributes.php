@@ -21,7 +21,7 @@ require 'vendor/plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = \Puc_v4_Factory::buildUpdateChecker(
     'https://github.com/ashkankhalili/wc-attributes-plugin',
     __FILE__,
-    'attributes-plugin'
+    'wc-attributes-plugin'
 );
 
 require_once ATTRIBUTES_PLUGIN_PATH.'core/admin-page.php';
