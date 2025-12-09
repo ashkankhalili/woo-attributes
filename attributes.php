@@ -17,7 +17,7 @@ namespace Attributes;
 
 if (!defined('ATTRIBUTES_PLUGIN_PATH')) {
     define('ATTRIBUTES_PLUGIN_PATH', dirname(__FILE__).'/');
-    define('ATTRIBUTES_PLUGIN_VERSION', '1.0.3');
+    define('ATTRIBUTES_PLUGIN_VERSION', '1.0.4');
     define('ATTRIBUTES_PREFIX', 'attr');
 }
 
