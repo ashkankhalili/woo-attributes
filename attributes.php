@@ -3,28 +3,30 @@
  * Plugin Name
  *
  * @package   Attributes
- * @author    Erfan Loghmani
- * @copyright 2019 Rooberah
+ * @author    Ashkan Khalili
+ * @copyright 2025 NovinWebSaz
  * @license   GPL-2.0-or-later
  *
  * @wordpress-plugin
- * Plugin Name:       Attributes
- * Description:       This plugin make changing attributes easier
- * Version:           0.1.0
+ * Plugin Name:       WC Attributes Manager
+ * plugin ur : Plugin URI: https://github.com/ashkankhalili/wc-attributes-plugin
+ * 
+ * Description:       This plugin makes changing attributes of products easier and much faster than the default products attribute manager on product edit page for woocommerce
+ * Version:           1.0.3
  */
 
 namespace Attributes;
 
 if (!defined('ATTRIBUTES_PLUGIN_PATH')) {
     define('ATTRIBUTES_PLUGIN_PATH', dirname(__FILE__).'/');
-    define('ATTRIBUTES_PLUGIN_VERSION', '0.1.0');
+    define('ATTRIBUTES_PLUGIN_VERSION', '1.0.3');
     define('ATTRIBUTES_PREFIX', 'attr');
 }
 
 
 require 'vendor/plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = \Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/Rooberah/attributes-plugin',
+    'https://github.com/ashkankhalili/wc-attributes-plugin',
     __FILE__,
     'attributes-plugin'
 );
