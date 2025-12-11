@@ -1,18 +1,19 @@
 <?php
 /*
-    Plugin Name: Woo Attributes 
-    Plugin URI: https://novinwebsaz.net/
-    Description: This plugin makes changing attributes of products easier and much faster than the default products attribute manager on product edit page for woocommerce
-    Version: 1.1.3
-    Author: Ashkan Khalili
-    @copyright 2025 NovinWebSaz
-    License   GPL-2.0-or-later
+ *Plugin Name: Woo Attributes 
+ *Plugin URI: https://novinwebsaz.net/
+ *Description: This plugin makes changing attributes of products easier and much faster than the default products attribute manager on product edit page for woocommerce
+ *Version: 1.1.4
+ *Author: Ashkan Khalili
+ *@copyright 2025 NovinWebSaz
+ *License:     GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
 namespace Attributes;
 
 if (!defined('ATTRIBUTES_PLUGIN_PATH')) {
     define('ATTRIBUTES_PLUGIN_PATH', dirname(__FILE__).'/');
-    define('ATTRIBUTES_PLUGIN_VERSION', '1.1.3');
+    define('ATTRIBUTES_PLUGIN_VERSION', '1.1.4');
     define('ATTRIBUTES_PREFIX', 'attr');
 }
 
