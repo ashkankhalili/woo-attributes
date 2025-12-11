@@ -1,6 +1,6 @@
 <?php
 /*
-    Plugin Name: WC Attributes Plugin
+    Plugin Name: Woo Attributes 
     Plugin URI: https://novinwebsaz.net/
     Description: This plugin makes changing attributes of products easier and much faster than the default products attribute manager on product edit page for woocommerce
     Version: 1.0.8
@@ -19,9 +19,9 @@ if (!defined('ATTRIBUTES_PLUGIN_PATH')) {
 
 require 'vendor/plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = \Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/ashkankhalili/wc-attributes-plugin',
+    'https://github.com/ashkankhalili/woo-attributes',
     __FILE__,
-    'wc-attributes-plugin'
+    'woo-attributes'
 );
 $myUpdateChecker->setBranch('main');
 require_once ATTRIBUTES_PLUGIN_PATH.'core/admin-page.php';
